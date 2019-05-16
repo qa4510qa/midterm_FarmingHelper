@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC');
+
+html, body {
+  height: 100% ;
+}
+
+#App {
+  height: 100% ;
+}
+
+.start-screen_wrapper {
+  height: 100% ;
+  width: 100% ;
+  background-image: url('../Public/img/farm_wide3.png');
+  background-repeat: no-repeat; 
+  background-size: cover ;
+  flex-direction: column ;
+}
+
+.start-screen_title_div {
+  flex: 3 ;
+}
+
+.start-screen_title_p {
+  text-align: center;
+  font-size: 60px ;
+  margin: 0 ;
+  padding: 60px ;
+  padding-bottom: 20px ;
+  font-family: 'Noto Sans TC', sans-serif;
+  color: green;
+}
+
+.start-screen_IP_input {
+  height:50px;
+  width:300px ;
+  border-color:black ;
+  border-width: 1px ;
+  border-radius: 10px ;
+  margin:20px ;
+  margin: auto;
+  flex:2;      
+  font-size: 30px ;
+}
+
+.start-screen_button {
+  margin-left: 190px ;
+  margin-top: 20px ;
+  border-color: black ;
+  border-width: 1px ;
+  border-radius: 5px ;
+  width:100px ;
+  flex:1;
+  font-weight: bold;
+}
+
+.TimePicker_title {
+  flex: 3 ;
+  text-align: left ;
+  font-size: 20px ;
+  margin-left: 10px ;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.timepicker_DatePicker{
+  flex: 7 ;
+  text-align: left ;
+  margin-left: 10px ;
+}
+
+.setlocation_container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.setlocation_formControl{
+  margin: "theme.spacing(1)";
+  min-width: 120;
+}
+
+.setlocation_Select{
+  flex: 7 ;
+  text-align: left ;
+  margin-left: 10px ;
+}
+
+.tab_button{
+  display:flex;
+  flex:1;
+  flex-direction: row;
+  text-align: center;
+}
+
+.tab_text_unclicked{
+  align-self: center;
+  margin: 2px;
+  font-size:25px ;
+  color:gray ;
+  opacity: 0.5;
+  flex:3;
+  display: flex;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.tab_text_clicked{
+  align-self: center;
+  margin: 2px;
+  font-size:25px ;
+  flex:3 ;
+  display: flex;  
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.tab_img_unclicked{
+  width: 25px;
+  flex:1;
+  opacity: 0.5;
+  display: flex;
+}
+
+.tab_img_clicked{
+  width: 25px;
+  flex:1;
+  display: flex;
+}
+
+.cropItemTitle{
+  color:black;
+  display:flex;
+  flex: 1 ;
+}
+
+.cropItemText{
+  color:black;
+  display:flex;
+  flex: 1 ;
+}
+
+input[type="checkbox"]{
+  display: none;
+}
+
+.picker_title{
+  margin: 10px;
+  font-family: 'Noto Sans TC', sans-serif;
+  flex: 3 ;
+  text-align: left ;
+  font-size: 20px ;
+}
+
+.EnterBottomText{
+  margin:10px;
+  font-size:25px;
+  color:olivedrab;
+  font-weight:bold;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.ansTitle{
+  font-size:28px;
+  font-family: 'Noto Sans TC', sans-serif;
+
+}
+
+.ansContent{
+  color:black;
+  font-size:25px;
+  padding:1px;
+  margin-left:2px;
+  flex:4;   
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.mainHeadline{
+  font-size:25px;
+  color:red;
+  font-weight:"bold";
+}
+
+.climateDisplayTitle{
+  flex:1;
+  font-size:28px;
+  font-weight:"bold";
+  color:navy ;
+}
+
+.cropDisplayTitle{
+  flex:4;
+  font-size:30px;
+  font-weight:bold;
+  color:navy;
+  padding-left:20px;
+  padding-top:20px;
+}
+
+
+.remarkWords{
+  font-size:15px;
+}
+
+.InfoDisplayTitle{
+  text-align:left;
+  font-size:23px;
+  margin-left:15px;
+  margin-top:10px;
+  font-weight:bold;
+}
+
+.InfoDisplaySubtitle{
+  font-size:20px;
+  padding:5px;
+  color:black;
+  font-weight:bold;
+}
+
+.InfoDisplayContent{
+  text-align:left;
+  font-size:18px;
+  margin:10px;
+  margin-bottom:2px;
+}
+
+.InfoDisplayContentOl{
+  text-align:left;
+  font-size:18px;
+  margin-left:5px;
+  margin-bottom:2px;
+  font-weight:bold;
+}
+
+.InfoDisplayContentLi{
+  text-align:left;
+  font-size:18px;
+  margin-left:23px;
+  margin-right:10px;
+  margin-bottom:4px;
+}
+
+/* .mainHeadline{
+
+} */
+
+
