@@ -41,9 +41,9 @@ class SetLocation extends React.Component {
         <div style={{marginLeft:5}}>
           <Button onClick={this.handleClickOpen.bind(this)}>{this.props.location}</Button>
           <Dialog disableBackdropClick disableEscapeKeyDown open={this.state.open} onClose={this.handleClose.bind(this)}>
-            <DialogTitle>耕作地點</DialogTitle>
+            <DialogTitle >耕作地點</DialogTitle>
             <DialogContent>
-              <form className={"setlocation_container"}>
+              <form className={"setlocation_container"} >
                 <FormControl className={"setlocation_formControl"}>
                   <Select
                     native

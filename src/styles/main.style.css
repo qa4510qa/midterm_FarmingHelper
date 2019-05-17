@@ -28,7 +28,7 @@ html, body {
   padding: 60px ;
   padding-bottom: 20px ;
   font-family: 'Noto Sans TC', sans-serif;
-  color: green;
+  color:#AA0000;
 }
 
 .start-screen_IP_input {
@@ -57,7 +57,7 @@ html, body {
 .TimePicker_title {
   flex: 3 ;
   text-align: left ;
-  font-size: 20px ;
+  font-size: 25px ;
   margin-left: 10px ;
   font-family: 'Noto Sans TC', sans-serif;
 }
@@ -65,7 +65,7 @@ html, body {
 .timepicker_DatePicker{
   flex: 7 ;
   text-align: left ;
-  margin-left: 10px ;
+  margin-left: 30px ;
 }
 
 .setlocation_container{
@@ -202,8 +202,11 @@ input[type="checkbox"]{
   text-align:left;
   font-size:23px;
   margin-left:15px;
+  margin-right:15px;
   margin-top:10px;
   font-weight:bold;
+  background-color:#E0FFFF;
+  padding:10px;
 }
 
 .InfoDisplaySubtitle{
@@ -236,8 +239,6 @@ input[type="checkbox"]{
   margin-bottom:4px;
 }
 
-/* .mainHeadline{
 
-} */
 
 

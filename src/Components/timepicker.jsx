@@ -10,7 +10,7 @@ class TimePicker extends React.Component {
   render() {
     console.log("test_timePicker");
     return (
-      <div style={{marginTop:10, height:"auto", backgroundColor:'white',flexDirection:"row"}}>
+      <div style={{height:"auto", backgroundColor:'white',flexDirection:"row"}}>
         <p className={"TimePicker_title"}>{this.props.innertext}</p>
         <DatePicker
           className={"timepicker_DatePicker"}
