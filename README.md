@@ -20,7 +20,7 @@ The application supports MacOS, Windows, and IOS now.
 For [MacOS and Windows](https://github.com/qa4510qa/midterm_FarmingHelper/blob/master/README.md)
 1. Please find the server machine and follow [this](https://github.com/qa4510qa/midterm_FarmingHelperServer) README to deploy the server.
 2. Turn back to your local computer.
-3. Make sure you have NPM() and Node() installed.
+3. Make sure you have NPM(^6.4.1) and Node(^10.15.3) installed.
 4. `cd midterm_FarmingHelper`
 5. `npm i`
 6. In src/const/AppConfig.const.js, set SERVER_IP to `<your server's IP or domain>`.
