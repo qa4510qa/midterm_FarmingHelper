@@ -16,6 +16,11 @@ The application supports MacOS, Windows, and IOS now.
 * [Express](https://expressjs.com) - A node package for handling HTTP request with a series of middlewares.
 * [Electron](https://electronjs.org/) - The framework used to build cross-platfrom apps
 
+##Demo
+You can download the zip file and get demo apps directly from the link below.
+* for Mac:https://github.com/qa4510qa/midterm_FarmingHelper/releases/download/1.0.0/midterm_farminghelper-darwin-x64-1.0.0.zip
+* for Windows:https://github.com/qa4510qa/midterm_FarmingHelper/releases/download/1.0.0/midterm_farminghelper-win32-x64.zip
+
 ## How to build
 For [MacOS and Windows](https://github.com/qa4510qa/midterm_FarmingHelper/blob/master/README.md)
 1. Please find the server machine and follow [this](https://github.com/qa4510qa/midterm_FarmingHelperServer) README to deploy the server.
