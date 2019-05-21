@@ -5,21 +5,22 @@ import Info from './Containers/info';
 import Main from './Containers/main';
 import FutureClimate from './Containers/futureClimate';
 import CropData from './Containers/cropData';
-import StartScreen from './Containers/startScreen';
+// import StartScreen from './Containers/startScreen';
+import AppConfig from './const/AppConfig.const';
 
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeScreen: '',
+      activeScreen: 'Main',
       start_year: 2019,
       start_month: 3,
       start_day: 1,
       end_year: 2019,
       end_month: 5,
       end_day: 31,
-      ip: "localhost",
+      ip: AppConfig.SERVER_IP,
     };
   }
 
@@ -51,8 +52,8 @@ class App extends React.Component {
     // return (<Main ip={this.state.ip} activeScreen={this.state.activeScreen} switchScreen={(toScreen) => { this.switchScreen(toScreen); }} setDate={this.setDate} />);
     // return (<StartScreen ip={this.state.ip} setServerIP={this.setServerIP} switchScreen={(toScreen) => { this.switchScreen(toScreen); }} />);
     switch (this.state.activeScreen) {
-      case '':
-        return (<StartScreen ip={this.state.ip} setServerIP={this.setServerIP.bind(this)} switchScreen={(toScreen) => { this.switchScreen(toScreen); }} />);
+      // case '':
+      //   return (<StartScreen ip={this.state.ip} setServerIP={this.setServerIP.bind(this)} switchScreen={(toScreen) => { this.switchScreen(toScreen); }} />);
       case 'Info':
         return (<Info activeScreen={this.state.activeScreen} switchScreen={(toScreen) => { this.switchScreen(toScreen); }} />);
       case 'Main':
