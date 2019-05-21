@@ -17,7 +17,7 @@ The application supports MacOS, Windows, and IOS now.
 * [Electron](https://electronjs.org/) - The framework used to build cross-platfrom apps
 
 ## How to build
-For MacOS and Windows
+For [MacOS and Windows](https://github.com/qa4510qa/midterm_FarmingHelper/blob/master/README.md)
 1. Please find the server machine and follow [this](https://github.com/qa4510qa/midterm_FarmingHelperServer) README to deploy the server.
 2. Turn back to your local computer.
 3. Make sure you have NPM() and Node() installed.
@@ -27,7 +27,7 @@ For MacOS and Windows
 7. `npm start` to run in debugging mode.
 8. `npm run make` to generate executable APP for your platform.
 
-For IOS (developing in Mac)
+For [IOS](https://github.com/qa4510qa/CCproject) (developing in Mac)
 1. Please find the server machine and follow [this](https://github.com/qa4510qa/midterm_FarmingHelperServer) README to deploy the server.
 2. Turn back to your local computer.
 3. Make sure you have NPM(^6.4.1) and Node(^10.15.3) installed.
@@ -43,6 +43,7 @@ For IOS (developing in Mac)
 * Page "試算": This is the main page. You can calculate the optimal answer of cropping here.
 * Page "未來氣候": We provide the climate data here.
 * Page "作物資料": We provide the crop data here.
+
 ## Credits
 * [Electron Forge](https://electronforge.io) for the Electron + React boilerplate
 * React-Native boilplate
